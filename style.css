@@ -1,0 +1,539 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  background-repeat: no-repeat;
+}
+body {
+  color: #4f4f4f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 144%;
+  font-style: normal;
+  font-family: Lato;
+  background-color: #f4f6f9;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.title-all {
+  color: #333;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 132%;
+}
+.container {
+  max-width: 1117px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #333;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 132%;
+  letter-spacing: 1.08px;
+}
+.header-content {
+  width: 550px;
+}
+.app-store::before {
+  content: url(./images/AppleStore.svg);
+  width: 93px;
+  height: 47px;
+  display: block;
+}
+.play-market::before {
+  content: url(./images/GooglePlay.svg);
+  width: 93px;
+  height: 47px;
+  margin-left: 80px;
+  display: block;
+}
+.header-img {
+  position: relative;
+}
+.header-img .frame {
+  width: 893px;
+  height: 568px;
+  position: absolute;
+  bottom: -56px;
+  left: 285px;
+}
+.logo {
+  margin-top: 63px;
+}
+.header-content {
+  margin-top: 133px;
+}
+.header-description {
+  margin-top: 30px;
+}
+.header-link {
+  margin-top: 50px;
+  display: flex;
+}
+.header-block {
+}
+/* block arsnal */
+.arsenal {
+  margin: 0 auto;
+  margin-top: 92px;
+  background: linear-gradient(270deg, #fff 5.16%, rgba(255, 255, 255, 0) 67.14%),
+    rgba(255, 255, 255, 0.5) url(./images/ron.png);
+  width: 1260px;
+  height: 592px;
+  opacity: 80%;
+}
+.arsenal-img__item {
+  margin-top: 78px;
+}
+.arsenal-title {
+  color: #00adee;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+}
+.arsenal-text {
+  max-width: 430px;
+  margin-top: 133px;
+}
+.arsenal-content {
+  display: flex;
+
+  justify-content: space-between;
+}
+.arsenal-description {
+  width: 400px;
+  margin-top: 27px;
+}
+.arsenal-description2 {
+  width: 405px;
+  margin-top: 27px;
+}
+.arsenal-title__item {
+  margin-top: 27px;
+}
+.link {
+  color: #00adee;
+  font-weight: 700;
+}
+.arsenal-link {
+  display: block;
+  margin-top: 27px;
+}
+.text-salah {
+  width: 470px;
+}
+/* features block  */
+.features {
+  margin-top: 40px;
+  height: 735px;
+  width: 1260px;
+  background-color: #00adee;
+  background-image: url(./images/blue.png);
+  margin: 0 auto;
+}
+.features-title {
+  padding-top: 76px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.features-list__video {
+  width: 315px;
+  margin-top: 54px;
+}
+.icon-tv::before {
+  content: url(./images/telev.svg);
+  width: 40px;
+  height: 40px;
+}
+.icon-flag::before {
+  content: url(./images/flag.svg);
+  width: 40px;
+  height: 40px;
+}
+.icon-phone::before {
+  content: url(./images/phone.svg);
+  width: 40px;
+  height: 40px;
+}
+.icon-col::before {
+  content: url(./images/icon-col.svg);
+  width: 40px;
+  height: 40px;
+}
+.icon-card::before {
+  content: url(./images/icon-card.svg);
+  width: 40px;
+  height: 40px;
+}
+.icon-people::before {
+  content: url(./images/icon-people.svg);
+  width: 40px;
+  height: 40px;
+}
+.icon-hd::before {
+  content: url(./images/icon-hd.svg);
+  width: 40px;
+  height: 40px;
+}
+.icon-graph::before {
+  content: url(./images/icon-graph.svg);
+  width: 40px;
+  height: 40px;
+}
+.icon-sett::before {
+  content: url(./images/icon-sett.svg);
+  width: 40px;
+  height: 40px;
+}
+.features-list__video p {
+  color: #fff;
+}
+.sports-title {
+  margin-top: 57px;
+  display: flex;
+  justify-content: center;
+}
+.koka {
+  display: flex;
+}
+.sports-list ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+.icon-sport-tv::before {
+  content: url(./images/sport-tv.svg);
+}
+.icon-sports::before {
+  content: url(./images/sports.svg);
+}
+.icon-nbc::before {
+  content: url(./images/nbc.svg);
+}
+.icon-designer::before {
+  content: url(./images/regisner.svg);
+}
+.icon-dn::before {
+  content: url(./images/dn.svg);
+}
+.icon-sky-sports::before {
+  content: url(./images/sky-sports.svg);
+}
+.getup {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 1260px;
+}
+.getup-block {
+  display: flex;
+  justify-content: space-between;
+}
+.frame2 {
+  width: 668px;
+  height: 484px;
+}
+.getup-content {
+  width: 525px;
+  margin-right: 30px;
+  margin-top: 100px;
+  width: 1260px;
+}
+.getup-description {
+  margin-top: 50px;
+}
+.footer {
+  background-color: #00adee;
+  padding: 20px 0;
+}
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content li {
+  margin: 0 37px;
+}
+.footer-content .foot-link {
+  color: #fff;
+}
+.footer-info ul li a {
+  margin: 0 7px;
+}
+.icon-twitter::before {
+  content: url(./images/twitter2.svg);
+}
+.icon-facebook::before {
+  content: url(./images/facebook2.svg);
+}
+.icon-inst::before {
+  content: url(./images/instagram2.svg);
+}
+.footer-info ul {
+  display: flex;
+}
+.footer-content {
+  display: flex;
+}
+.media-p {
+  display: none;
+}
+.mobile-logo {
+}
+.salah2-img {
+  display: none;
+}
+.salah-content {
+  display: flex;
+  justify-content: space-between;
+}
+.salah-text {
+  margin-top: 230px;
+}
+.salahmo {
+  display: none;
+}
+.getup-content {
+  /* width: 360px; */
+}
+/* media  */
+
+@media (max-width: 360px) {
+  .arsenal {
+    background: none;
+  }
+
+  .frame {
+    display: none;
+  }
+  .title {
+    font-size: 30px;
+    width: 320px;
+    text-align: center;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+  .header-content {
+    margin-top: 80px;
+  }
+  .header-description,
+  .header-span {
+    display: none;
+  }
+  .media-p {
+    width: 320px;
+    margin-top: 33px;
+    text-align: center;
+    display: block;
+  }
+  .arsenal {
+    margin: 0 auto;
+    margin-top: 92px;
+    background: none;
+    width: 360px;
+  }
+  .arsenal-content {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .arsenal-img__item {
+    width: 308px;
+    height: 270px;
+    margin-top: 30px;
+  }
+  .salah-img {
+    display: none;
+  }
+  .arsenal-text {
+    max-width: none;
+  }
+  .arsenal-title__item {
+    width: 320px;
+    text-align: center;
+  }
+  .salah2-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-8%, 115%);
+  }
+  .container {
+    max-width: none;
+    width: 360px;
+  }
+  .arsenal-description {
+    width: 320px;
+    text-align: center;
+  }
+  .arsenal-description2 {
+    width: 320px;
+    text-align: center;
+  }
+  .arsenal-img {
+    margin-top: 50px;
+    background: linear-gradient(
+        270deg,
+        #fff 5.16%,
+        rgba(255, 255, 255, 0) 67.14%
+      ),
+      rgba(255, 255, 255, 0.5) url(./images/mobile-fon.png);
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 388px;
+  }
+  .salah-text {
+    margin-top: 520px;
+  }
+  body {
+    background-color: none;
+    text-align: center;
+  }
+  .salah-title {
+    width: 320px;
+  }
+  .text-salah {
+    width: 320px;
+    text-align: center;
+  }
+  .arsenal-link {
+  }
+  .features-list__video p {
+    color: #000;
+  }
+  .features {
+    background: none;
+    width: 360px;
+  }
+  .features-list {
+    flex-direction: column;
+    align-items: start;
+    width: 360px;
+  }
+
+  .features-title {
+    color: #000;
+    width: 320px;
+    display: block;
+  }
+  .getup-block {
+    margin-top: 200px;
+  }
+  .salahmo {
+    display: block;
+  }
+  .sports-list ul {
+    flex-direction: column;
+  }
+  .sports {
+    margin-top: 1150px;
+  }
+  .frame2 {
+    width: 360px;
+    height: 261px;
+    display: block;
+  }
+  .getup-block {
+    flex-direction: column;
+  }
+  .getup-description {
+    width: 320px;
+  }
+  .getup-block .title-all {
+    width: 320px;
+  }
+  .footer {
+    margin-top: 50px;
+  }
+  .footer-block {
+    flex-direction: column;
+  }
+  .footer-content ul {
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .footer-info ul {
+    justify-content: center;
+  }
+  .arsenal-title {
+    width: 320px;
+  }
+  .arsenal-link {
+    width: 320px;
+  }
+  .getup {
+    width: 360px;
+  }
+  .getup-content {
+    width: 360px;
+    margin-right: 0;
+  }
+  .header-content {
+    width: 360px;
+  }
+  .icon-tv::before {
+    content: url(./images/blue-tv.svg);
+    width: 40px;
+    height: 40px;
+  }
+  .icon-flag::before {
+    content: url(./images/blue-flag.svg);
+    width: 40px;
+    height: 40px;
+  }
+  .icon-phone::before {
+    content: url(./images/blue-phone.svg);
+    width: 40px;
+    height: 40px;
+  }
+  .icon-col::before {
+    content: url(./images/blue-col.svg);
+    width: 40px;
+    height: 40px;
+  }
+  .icon-card::before {
+    content: url(./images/blue-cards.svg);
+    width: 40px;
+    height: 40px;
+  }
+  .icon-people::before {
+    content: url(./images/blue-people.svg);
+    width: 40px;
+    height: 40px;
+  }
+  .icon-hd::before {
+    content: url(./images/blue-hd.svg);
+    width: 40px;
+    height: 40px;
+  }
+  .icon-graph::before {
+    content: url(./images/blue-graph.svg);
+    width: 40px;
+    height: 40px;
+  }
+  .icon-sett::before {
+    content: url(./images/blue-sett.svg);
+    width: 40px;
+    height: 40px;
+  }
+}
